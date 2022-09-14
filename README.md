@@ -2,13 +2,16 @@
 
 ---
 ## screenshots
-### Homepage
-![homepage snap](https://github.com/sumitkumar1503/librarymanagement/blob/master/static/screenshots/homepage.png?raw=true)
+### Login Page
+![login page](login.PNG)
+### Signup page
+![signup](Signup.PNG)
 ### Admin Dashboard
 ![dashboard snap](Account.PNG)
-### Available Book
-![invoice snap](https://github.com/sumitkumar1503/librarymanagement/blob/master/static/screenshots/availablebook.png?raw=true)
-
+### All available Book
+![invoice snap](AllBooks.PNG)
+### Student View
+![Student view](studentview.PNG)
 ---
 ## Functions
 ### Admin
