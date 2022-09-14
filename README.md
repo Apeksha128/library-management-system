@@ -12,7 +12,13 @@
 ![invoice snap](AllBooks.PNG)
 ### Student View
 ![Student view](studentview.PNG)
+### Student Book view
+![student book view](studentbookview.PNG)
 ---
+### Admin account details
+Username - Atharva
+password - 123@ath
+
 ## Functions
 ### Admin
 - Create Admin account and Login.
