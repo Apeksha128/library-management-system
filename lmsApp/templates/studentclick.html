@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% load humanize %} {% load customfilter %} {% block pageContent %}
+
+<!--Section: Content-->
+<section class="">
+    
+    <h2 class="fw-bolder">Welcome Student! {{request.user.first_name}}&nbsp;{{request.user.last_name}}</h2>
+    <p>As you are Student, you can see all available books ...!</p>
+    <a class="btn btn-primary btn-lg" href="/studentbookview" role="button">Books</a>
+    
+</section>
+<div>
+  
+  {% block TopNavigation %} {% include "TopNavigation.html" %} {% endblock TopNavigation %} </div>
+ {% endblock pageContent %} {% block ScriptBlock %}
+
+{% endblock ScriptBlock %}
+
+<body class="">
+  
+  
+  {% if footer %}
+  <footer class="bg-light text-lg-start">
+      
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          
+      </div>
+      <!-- Copyright -->
+  </footer>
+  {% endif %}
+</body>
